@@ -7,7 +7,7 @@ document.getElementById('enter-btn')?.addEventListener('click', function () {
     const correctPassword = '0227'; // 设置密码
 
     if (password === correctPassword) {
-        window.location.href = 'menu.html'; // 密码正确，跳转至菜单页
+        window.location.href = 'chenyv/menu.html'; // 密码正确，跳转至菜单页
     } else {
         errorMessage.textContent = '密码错误，请重新输入！'; // 密码错误，显示提示信息
         errorMessage.style.color = 'red'; // 提示信息显示为红色
